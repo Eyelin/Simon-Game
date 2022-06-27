@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon Game</title>
+
+    <!-- Linking the favicon -->
+    <link rel="icon" href="simongame.ico" />
+
+    <!-- Linking the external CSS file, always after the Bootstrap link -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Linking with Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div lass="row">
+        <div type="button" id="green" class="btn green"></div>
+
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <!-- Linking JQuery (via Google CDN), always before the JavaScript link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Linking the external JavaScript file -->
+    <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>
